@@ -1,4 +1,4 @@
-const { render, fireEvent, screen } = require("@testing-library/react");
+const { fireEvent, screen, render } = require("@testing-library/react");
 import AddNumbers from "./AddNumbers";
 
 test.only("Add the Number String", () => {
