@@ -15,9 +15,14 @@ export default function AddNumbers({ num }) {
         value={numbers}
         onChange={(e) => setNumbers(e.target.value)}
       />
-      <button onClick={() => setTotal(calcTotal(numList))}>Calculate</button>
+      <button
+        data-testid="calcTotalBtn"
+        onClick={() => setTotal(calcTotal(numList))}
+      >
+        Calculate
+      </button>
       <h3>Input = {numbers}</h3>
-      <h3>Total = {total}</h3>
+      <h3 data-testid="totalValue">Total = {total}</h3>
     </div>
   );
 }
