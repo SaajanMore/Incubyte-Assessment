@@ -12,9 +12,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "jest": {
-    "transform": {}
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -38,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-jest": "^29.7.0"
   }
 }
